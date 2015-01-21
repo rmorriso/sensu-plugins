@@ -9,7 +9,7 @@ import (
 
 // Config holds PagerDuty configuration details
 type Config struct {
-	ServiceKey string `yaml:"service_keyd"`
+	ServiceKey string `yaml:"service_key"`
 }
 
 // Init unmarshalls Config from YAML configuration in filename
