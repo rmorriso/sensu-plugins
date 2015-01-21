@@ -1,0 +1,4 @@
+# PagerDuty configuration
+---
+
+service_key: REPLACE_WITH_YOUR-PAGERDUTY-SERVICE-KEY 

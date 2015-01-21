@@ -1,0 +1,26 @@
+i{
+    "id" : "de941038-0f39-437a-8a78-7de315da6e45",
+    "client" : {
+         "name" : "do102",
+         "address" : "104.236.93.106",
+         "subscriptions" : ["system"],
+         "version" : "0.16.0",
+         "timestamp" : 1420932343
+     },
+     "check" : {
+          "handlers" : ["default","pagerduty"],
+          "command" : "/etc/sensu/plugins/check-cpu.rb ",
+          "interval" : 60,
+          "subscribers" : ["system"],
+          "name" : "cpu",
+          "issued" : 1420932350,
+          "executed" : 1420932351,
+          "duration" : 1.197,
+          "output" : "CheckCPU TOTAL WARNING: total=100.0 user=54.0 nice=0.0 system=41.0 idle=0.0 iowait=1.0 irq=4.0 softirq=0.0 steal=0.0 guest=0.0",
+          "status" : 1,
+          "history" : ["1","1","1","1","1","1","1","1","1","1","1","2"]
+     },
+     "occurrences" : 1,
+     "action" : "create"
+}
+
